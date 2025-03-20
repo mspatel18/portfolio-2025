@@ -6,6 +6,7 @@ import Navbar from "@/components/Navbar";
 import Image from "next/image";
 import gradientimage from "../../public/gradient.webp";
 import localFont from "next/font/local";
+import { Analytics } from "@vercel/analytics/react";
 const myFont = localFont({
   variable: "--font-cal",
   src: "../../public/CalSans-Regular.woff2",
@@ -79,6 +80,7 @@ export default function RootLayout({
               {" </>"}
             </footer>
           </div>
+          <Analytics />
         </ThemeProvider>
       </body>
     </html>

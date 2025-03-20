@@ -1,7 +1,6 @@
 import Intro from "@/components/home/Intro";
 import SVGComponent from "@/components/home/Wave";
 import AboutMe from "@/components/home/AboutMe";
-import { Analytics } from "@vercel/analytics/react";
 import Subtitle from "@/components/home/Subtitle";
 
 export default function Home() {
@@ -15,7 +14,6 @@ export default function Home() {
       <Intro />
       <SVGComponent />
       <AboutMe />
-      <Analytics />
     </>
   );
 }
