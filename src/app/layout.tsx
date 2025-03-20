@@ -13,6 +13,7 @@ const myFont = localFont({
 });
 const geistmono = Geist_Mono({
   variable: "--font-mono",
+  subsets: ["latin"],
 });
 const poppinsSans = Poppins({
   subsets: ["latin"], // Or other desired subsets
