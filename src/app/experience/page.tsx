@@ -17,7 +17,7 @@ const Experience = () => {
         details={[]}
       />
       <WorkCard
-        logo="/tatvasoft_logo.jfif"
+        logo="/tatvasoft_logo.png"
         position="Web Developer Intern"
         title="Tatvasoft"
         duration="May 2024 - June 2024"

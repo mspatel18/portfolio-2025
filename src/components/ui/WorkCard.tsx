@@ -25,7 +25,7 @@ const WorkCard = (props: {
             src={props.logo}
             width={60}
             height={60}
-            alt=""
+            alt="Company logo"
             className="drop-shadow-lg rounded-lg"
           />
           <div className="flex flex-col gap-1 justify-center items-start">

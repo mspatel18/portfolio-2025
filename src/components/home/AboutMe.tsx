@@ -22,7 +22,7 @@ const AboutMe = () => {
                 <Image
                   src={projectBg}
                   className="absolute h-full hover:scale-110 transition-transform ease-in-out duration-300 object-cover brightness-50"
-                  alt=""
+                  alt="Background image for project card"
                 />
                 <div className="z-10 text-xl font-cal rotate-90 text-background dark:text-foreground">
                   Projects
@@ -35,7 +35,7 @@ const AboutMe = () => {
                 <Image
                   src={experienceBg}
                   className="absolute h-full object-cover hover:scale-110 transition-transform ease-in-out duration-300 brightness-50"
-                  alt=""
+                  alt="Background image for experince card"
                 />
                 <div className="z-10 text-xl font-cal rotate-90 text-background dark:text-foreground">
                   Experience
