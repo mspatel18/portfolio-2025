@@ -51,14 +51,13 @@ export default function RootLayout({
       >
         <ThemeProvider
           attribute="class"
-          defaultTheme="system"
-          enableSystem
+          defaultTheme="dark"
           disableTransitionOnChange
         >
           <div className="container max-w-4xl mx-auto min-h-screen flex flex-col px-4 pt-5">
             <Image
               src={gradientimage}
-              alt=""
+              alt="gradient"
               className="absolute left-0 sm:left-1/2 top-0 -z-10 -translate-x-1/2 lg:scale-100 object-cover "
             />
             <Navbar />
